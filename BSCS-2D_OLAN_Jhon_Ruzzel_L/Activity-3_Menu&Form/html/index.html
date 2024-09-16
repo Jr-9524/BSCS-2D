@@ -1,0 +1,149 @@
+<!-- https://htmlpreview.github.io/?https://github.com/Jr-9524/BSCS-2D_OLAN-JHON_RUZZEL-L/blob/a817b05093ab970c56a4ebbdecdba5fd6cc16f7e/BSCS-2D_OLAN_Jhon_Ruzzel_L/Activity-2_Menu%26Form/html/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Food Menu</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 style="font-size: 50px;">FOOD MENU</h1>
+            <h3>BSCS-2D Restaurant</h3>
+        </header>
+
+    <section>
+        <p class="menu">MAIN COURSE</p><br>
+        <article class="foods">
+               <ul>
+                    <p class="menu">Food Items</p><br>
+                    <li>Cheeseburger</li>
+                    <li>Cheese sandwich</li>
+                    <li>Chicken burgers</li>
+                    <li>Spicy chicken</li>
+                    <li>Hot dog</li>
+               </ul>
+               <ul class="prices">
+                    <p class="menu">Prices</p><br>
+                    <li>₱99</li>
+                    <li>₱75</li>
+                    <li>₱89</li>
+                    <li>₱90</li>
+                    <li>₱50</li>
+               </ul>
+                <img src="../images/burger.jpg" alt="Burger">
+            
+        </article>
+    </section><br>
+
+    <section>
+        <p class="menu">APPETIZERS</p><br>
+        <article class="foods">
+            <img src="../images/fruit-salad.jpg" alt="Fruit-Salad">
+                <ul>
+                    <p class="menu">Food Items</p><br>
+                    <li>Fruit Salad</li>
+                    <li>Cocktails</li>
+                    <li>Nuggets</li>
+                    <li>Sandwich</li>
+                    <li>French Fries</li>
+                </ul>
+                <ul class="prices">
+                    <p class="menu">Prices</p><br>
+                    <li>₱70</li>
+                    <li>₱80</li>
+                    <li>₱99</li>
+                    <li>₱69</li>
+                    <li>₱49</li>
+                </ul>    
+        </article>
+    </section><br>
+
+    <section>
+        <p class="menu">BEVERAGES</p><br>
+        <article class="foods">
+               <ul>
+                    <p class="menu">Food Items</p><br>
+                    <li>Milk Shake Premium</li>
+                    <li>Iced Tea</li>
+                    <li>Orange Juice</li>
+                    <li>Lemon Tea</li>
+                    <li>Coffee</li>
+               </ul>
+               <ul class="prices">
+                    <p class="menu">Prices</p><br>
+                    <li>₱99</li>
+                    <li>₱59</li>
+                    <li>₱40</li>
+                    <li>₱40</li>
+                    <li>₱50</li>
+               </ul>
+            <img src="../images/ice-tea.png" alt="Ice-Tea">
+        </article>
+    </section>
+
+    <fieldset>
+        <form>
+            <h2>Registration Info</h2>
+            <label for="username" class="label-form">Username</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your Username" class="reg-input" required><br>
+
+            <label for="email" class="label-form">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" class="reg-input" required><br>
+
+            <label for="crt-pass" class="label-form">Create Password</label><br>
+            <input type="password" id="crt-pass" name="crt-pass" placeholder="Create Password" class="reg-input" required><br>
+
+            <label for="rpt-pass" class="label-form">Repeat Password</label><br>
+            <input type="password" id="rpt-pass" name="rpt-pass" placeholder="Repeat Password" class="reg-input" required><br>
+
+            <label for="gender" class="label-form">Select Gender</label><br>
+                <select name="gender" id="gender" required>
+                    <option value="rnts">Rather not to say</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>   
+                </select><br><br><br>
+            <hr><br>
+
+            <div class="acc-types">
+            <h3>Account Type (required)</h3><br>
+            <input type="radio" name="acc-type" value="personal" id="personal" required>
+            <label for="personal">Personal</label><br><br>
+
+            <input type="radio" name="acc-type" value="business" id="business" required>
+            <label for="business" >Business</label>
+            </div><br><br>
+            <hr><br>
+
+            <div class="acc-types-2">
+            <label for="profile-pic">Upload a profile picture:</label><br>
+            <input type="file" id="profile-pic" name="profile-pic" value="profile-pic" required><br><br>
+
+            <label for="age">Input your age(Years)</label><br>
+            <input type="number" class="int" name="age" id="age" required><br><br>
+
+            <label for="bio">Provide a bio:</label><br>
+            <textarea name="bio" id="bio" placeholder="I'm hungry"></textarea><br><br><br>
+            
+            <input type="checkbox" name="terms" id="terms" value="terms" style="cursor: pointer" required >
+            <label for="terms">I accept the <ins>terms and conditions</ins></label><br><br>
+            <input type="submit" value="Create Account" class="submit-btn">
+            </div>
+        </form>
+    </fieldset>
+    </main>
+
+    <footer>
+        <br><br>
+        <div class="contact-details">
+            <h3 class="contact-text">If you have any questions, <br>feel free to contact us!</h3>
+            <p>Gmail: <a href="https://mail.google.com" target="_blank" style="text-decoration: none;">foodmenu@gmail.com</a></p>
+            <p>Facebook: <a href="https://www.facebook.com" target="_blank" style="text-decoration: none;">Food Menu</a></p>
+            <p>Phone Number: 09123456789</p>
+        </div>
+    </footer>
+</body>
+</html>

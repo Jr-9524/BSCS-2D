@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(21, 21, 21);
+}
+
+header{
+    padding: 32px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.menu {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(230, 132, 5);
+    color: black; 
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+    width: fit-content;
+    font-size: 18px;
+    padding: 20px;
+}
+
+li{
+    padding-bottom: 8px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid rgb(230, 132, 5);
+}
+
+.foods{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    border: solid 5px rgb(230, 132, 5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.prices{
+    width: fit-content;
+    text-align: center;
+}
+
+fieldset{
+    width: 800px;
+    margin: auto;
+    border: solid 5px rgb(230, 132, 5);
+    margin-top: 64px;
+    border-radius: 5px;
+}
+
+form{
+    padding: 24px;
+    text-align: center;
+}
+
+.reg-input, select, .submit-btn, .int, textarea{
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    background-color: rgb(29, 29, 29);
+}
+
+.label-form{
+    display: inline-block;
+    padding-top: 16px;
+    text-align: left;
+    width: 300px;
+    margin: auto;
+}
+
+.acc-types h3{
+    text-align: center;
+}
+
+.acc-types, .acc-types-2{
+    width: 300px;
+    margin: auto;
+    text-align: start;
+}
+
+.submit-btn{
+    background-color: rgb(230, 132, 5);
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover{
+    background-color: rgb(246, 166, 61);
+}
+
+.contact-text{
+    width: 800px;
+    text-align: center;
+    padding: 16px;
+}
+
+.contact-details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+    border: 5px solid rgb(230, 132, 5);
+    justify-content: space-evenly;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.contact-details a{
+    transition: background-color 0.3s ease;
+}
+
+.contact-details a:hover{
+    color: rgb(246, 166, 61);
+}
