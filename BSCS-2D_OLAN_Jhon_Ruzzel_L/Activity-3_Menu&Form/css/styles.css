@@ -87,6 +87,11 @@ form{
     text-align: left;
     width: 300px;
     margin: auto;
+    cursor: pointer;
+}
+
+#personal, #business{
+    cursor: pointer;
 }
 
 .acc-types h3{
