@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #b6b6e4;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.left-side{
+    display: flex;
+    align-items: end;
+    width: 50%;
+    background-image: url(../images/Kaisa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0; 
+}
+
+.text{
+    margin: 30px;
+    color: white;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 80px;
+    background-color: #22223b;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+.terms{
+    display: flex;
+    gap: 10px;
+}
+
+.terms label{
+    font-size: 14px;
+}
+
+#terms{
+    cursor: pointer;
+}
+
+input{
+    height: 32px;
+}
+
+.inp-text{
+    padding: 8px;
+    background-color: #27275b;
+    border: none;
+    color: aliceblue;
+}
+
+#register{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(4, 138, 233);
+    border: none;
+    cursor: pointer;
+}
+
+#register:hover{
+    background-color: rgb(31, 162, 255);
+}
+
+.others{
+    color:aliceblue;
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.others-txt{
+    color: white;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.others img{
+    border-radius: 50%;
+    padding: 4px;
+    background-color: rgb(229, 230, 231);
+    cursor: pointer;
+}
+
+.others img:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(2, 201, 201);
+}
+
+a:hover{
+    color: rgb(5, 243, 243);
+}
